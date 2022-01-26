@@ -1,0 +1,23 @@
+{
+  "name": "BackEnd_Node_JS",
+  "version": "1.0.0",
+  "description": "This is node js app to send notification to react js app and also basic web app (using ejs)",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^14.3.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "firebase-admin": "^10.0.2",
+    "nodemon": "^2.0.15",
+    "web-push": "^3.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Shubham Kumar Shukla",
+  "license": "ISC"
+}
